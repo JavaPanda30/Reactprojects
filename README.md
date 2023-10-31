@@ -2,7 +2,6 @@
 
 [Projects Site](https://react-projects.netlify.app/)
 
-## Corresponding Tutorial Topics
 
 #### useState
 

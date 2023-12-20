@@ -1,37 +1,35 @@
-export default [
+const data = [
   {
     id: 1,
-    name: 'Bertie Yates',
-    age: 29,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+    task: 'Go to the store',
+    duration: 60,
+    priority: 3
   },
   {
     id: 2,
-    name: 'Hester Hogan',
-    age: 32,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-3_rxtqvi.jpg',
+    task: 'Clean my room', 
+    duration: 90,
+    priority: 4
   },
   {
-    id: 3,
-    name: 'Larry Little',
-    age: 36,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+    id: 3, 
+    task: 'Do homework',
+    duration: 120,
+    priority: 1
   },
   {
     id: 4,
-    name: 'Sean Walsh',
-    age: 34,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+    task: 'Go to the gym',
+    duration: 45, 
+    priority: 5  
   },
   {
     id: 5,
-    name: 'Lola Gardner',
-    age: 29,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-  },
+    task: 'Call family',
+    duration: 30,
+    priority: 2
+  }
 ];
+
+
+export default data;
